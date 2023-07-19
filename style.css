@@ -1,0 +1,100 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.container .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid white;
+    background-color: #EEEEEE;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.row-1 input{
+    width: 317px;
+    height: 21px;
+}
+
+.row-1 > :not(:last-child) {
+    padding-bottom: 8px;
+}
+
+
+
+.row-2{
+    display: flex;
+    width: 90%;
+}
+.col-1{
+    width: 36%;
+
+    background-color: #7EE5DA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    flex-shrink: 0;
+    border-right: 3px solid white;
+}
+
+
+.col-2{
+    width: 20%;
+
+    background-color: #70CCC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid white;
+}
+.col-3{
+    width: 100%;
+    
+    background-color: #62B3AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    padding-top: 2px;
+   
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+.button > button:not(:last-child) {
+    margin-right: 5px;
+}
+.footer{
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
