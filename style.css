@@ -1,9 +1,10 @@
- *{
+*{
     margin: 0;
     padding: 0;
  }
 
 .container{
+margin-top: 200px;    
 display: flex;
 align-items: center;
 justify-content: center;
@@ -14,6 +15,10 @@ flex-direction: column;
 .container .logo{
     display: flex;
     justify-content: center;
+}
+.container .logo img{
+    width: 400px;
+  
 }
 
 .row-1{
